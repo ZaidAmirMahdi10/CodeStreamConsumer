@@ -1,0 +1,97 @@
+/* App.css */
+
+/* Basic container styles */
+div {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #4caf50;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Input and button styles */
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Loader text */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Chart container */
+div > .chart {
+  margin: 20px 0;
+}
+
+/* Log message section */
+ul {
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  padding: 5px;
+  background-color: #f5f5f5;
+  margin: 5px 0;
+}
